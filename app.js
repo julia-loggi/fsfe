@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.get('/demo', (req, res) => {
   res.set('X-full-stack', '4life');
   res.status(418);
-  res.send('I preferrrrrrrrr tea');
+  res.send('I prefer tea');
 });
 
 app.listen(port, () => {
